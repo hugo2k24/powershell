@@ -1,1 +1,1 @@
-PowerShell scripts fot MS Active Directory administration
+PowerShell scripts for MS Active Directory administration
