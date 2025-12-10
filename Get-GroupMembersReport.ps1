@@ -41,8 +41,7 @@
     Get-GroupMembersReport.ps1 -OUs "OU=Security Groups,DC=contoso,DC=local" -IncludeNested -ReportPath "C:\Audit\"
     Отчет по всем группам из указанного OU с раскрытием вложенности.
 .EXAMPLE
-    Get-GroupMembersReport.ps1 -GroupNames "SG_Finance_*" -SendEmail -EmailTo "security@contoso.local" -IncludeUserDetails
-    Отчет по группам Finance с отправкой по email.
+    Get-GroupMembersReport.ps1 -GroupNames "SG_Finance_*"
 .NOTES
     Author: Dmitry Plotinsky
     Version: 3.2
