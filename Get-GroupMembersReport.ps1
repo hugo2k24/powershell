@@ -44,7 +44,7 @@
     Get-GroupMembersReport.ps1 -GroupNames "SG_Finance_*" -SendEmail -EmailTo "security@contoso.local" -IncludeUserDetails
     Отчет по группам Finance с отправкой по email.
 .NOTES
-    Author: Системный администратор
+    Author: Dmitry Plotinsky
     Version: 3.2
     Date: 2024-03-15
     Требует: Модуль ActiveDirectory, права на чтение в AD
