@@ -1,1 +1,2 @@
-PowerShell scripts for MS Active Directory administration
+# PowerShell scripts for MS Active Directory administration
+## Author: Dmitry Plotinsky
