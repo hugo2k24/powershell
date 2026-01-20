@@ -31,9 +31,6 @@ SamAccountName, DistinguishedName или SID пользователя/групп
     .\Find-UserGroupMembershipRecursive.ps1 -Identity "CN=Ivanov Ivan,OU=Users,DC=company,DC=local"
 
 .NOTES
-    Author: Dmitry Plotinsky
-    Version: 2.1
-    Date: 2024-03-15
 #>
 
 [CmdletBinding()]
