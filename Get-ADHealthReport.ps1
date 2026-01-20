@@ -55,10 +55,6 @@
     Get-ADHealthReport.ps1 -DCHostnames @("DC01", "DC02") -CheckEventLogs -DaysBack 3
     Проверка конкретных DC за последние 3 дня.
 .NOTES
-    Author: Дмитрий Плотинский
-    Version: 12.7.3
-    Date: 2025-10-15
-    Требует: PowerShell 5.1+, модули ActiveDirectory, Dfsr, админские права
 #>
 
 [CmdletBinding()]
