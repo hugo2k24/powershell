@@ -43,10 +43,6 @@
 .EXAMPLE
     Get-GroupMembersReport.ps1 -GroupNames "SG_Finance_*"
 .NOTES
-    Author: Dmitry Plotinsky
-    Version: 3.2
-    Date: 2024-03-15
-    Требует: Модуль ActiveDirectory, права на чтение в AD
 #>
 
 [CmdletBinding(DefaultParameterSetName = "ByName")]
